@@ -1,0 +1,6 @@
+{
+  "editor.defaultFormatter": "hashicorp.terraform",
+  "editor.formatOnSave": true,
+  "terraform.experimentalFeatures.prefillRequiredFields": true,
+  "terraform.experimentalFeatures.validateOnSave": false
+}

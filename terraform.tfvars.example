@@ -1,0 +1,2 @@
+prefix            = ""
+vm_cidr_whitelist = "0.0.0.0/0"

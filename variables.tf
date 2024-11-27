@@ -16,6 +16,12 @@ variable "vm_flavor_name" {
   description = "Flavor type of the VM"
 }
 
+variable "vm_additional_storage" {
+  type        = number
+  default     = 100
+  description = "Additional storage volume in gigabytes"
+}
+
 variable "subnet_cidr" {
   type        = string
   default     = "192.168.42.0/24"
